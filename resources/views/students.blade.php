@@ -207,7 +207,7 @@ figure {
     <p class='ex4' style='font-size:15px;'> Home </p>
     <p class='ex4' style='font-size:15px;'><a href='students'> Students </p></a>
     <p class='ex4' style='font-size:15px;'> About </p>
-    <p class='ex4' style='font-size:15px;'><a href='contact'> Contact</a> </p>
+    <p class='ex4' style='font-size:15px;'><a href='contactus'> Contact</a> </p>
     <p class='ex4' style='font-size:15px;'> Accomadations </p>
   </div>
 

@@ -48,6 +48,7 @@ li:before {
     top: 0.9em;
     position: relative;
 }
+img {display: inline-block;}
 </style>
 
 </head>

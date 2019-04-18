@@ -16,8 +16,8 @@ Route::get('/', function () {
 });
 
 
-Route::get('/contact', function() {
-	return view('contact');
+Route::get('/contactus', function() {
+	return view('contactus');
 });
 
 Route::get('/students', function() {
@@ -39,3 +39,14 @@ Route::get('/privacypolicy', function() {
 Route::get('/test', function() {
 	return view('test');
 });
+
+Route::get('/learnphp', function() {
+	return view('learnphp');
+});
+
+Route::get('/app.css', function() {
+	return view('app.css');
+});
+
+Route::get('contact', 'ContactController@create')->name('contact.create');
+Route::post('contact', 'ContactController@store')->name('contact.store');
